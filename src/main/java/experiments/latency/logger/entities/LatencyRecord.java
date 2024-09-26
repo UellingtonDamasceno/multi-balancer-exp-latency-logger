@@ -36,6 +36,8 @@ public class LatencyRecord {
 
     @CreationTimestamp
     private Instant createdAt;
+    
+    public LatencyRecord(){}
 
     public LatencyRecord(String deviceID,
             String sensorId, 
